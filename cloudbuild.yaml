@@ -1,5 +1,5 @@
 steps:
   - name: gcr.io/e-glazing-351111/firebase
     args: ['deploy', '--project=e-glazing-351111', '--only=functions']
-  options:
-    logging: CLOUD_LOGGING_ONLY
+options:
+  logging: CLOUD_LOGGING_ONLY
